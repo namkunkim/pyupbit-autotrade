@@ -125,12 +125,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-"""top10 = update_acc_trade_price_24h_top10()
-print("top10 : " + str(top10))
-report = get_report(acc_trade_price_24h_top10_store, top10)
-print("report : " + str(report))
-
-if report is not None:
-    logger.info(str(now) + report)
-    resp = send_report_to_me(report)
-    logger.info(str(now) + " resp for kakaotalk - " + resp)"""
